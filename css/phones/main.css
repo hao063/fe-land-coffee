@@ -12,10 +12,16 @@
         font-size: 13px !important;
     }
 
+
     .product-home .filter-categories ul {
-        justify-content: start;
+        justify-content: start !important;
         overflow-x: scroll;
     }
+
+    .product-home .filter-categories li{
+        margin: 0px 20px !important;
+    }
+
 }
 
 @media (max-width: 340px) {
