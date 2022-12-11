@@ -1,0 +1,117 @@
+.container-slider {
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.item {
+    float: left;
+    margin-right: -100%;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+.item img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+
+/* active */
+.item.active-right {
+    display: block;
+	animation: slide-right 1s ease;
+}
+
+.item.active-left {
+    display: block;
+	animation: slide-left 1s ease;
+}
+
+.item.active-start {
+    display: block !important;
+}
+
+/* next */
+.item.next-right {
+    display: block;
+	animation: next-right 1s ease;
+	transform:translateX(-100%);
+}
+
+.item.next-left {
+    display: block;
+	animation: next-left 1s ease;
+	transform:translateX(-100%);
+}
+
+/* indicator */
+
+.indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indicator .indicatorChild {
+    box-sizing: content-box;
+    width: 36px;
+    height: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.23);
+    background-clip: padding-box;
+    transition: 0.7s ease-in-out;
+}
+
+.indicator .indicatorChild.active {
+    background-color: #fff;
+}
+
+@keyframes slide-right {
+	0%{
+		transform:translateX(100%);
+	}
+	100%{
+		transform:translateX(0%);
+	}
+}
+
+
+@keyframes next-right {
+	0%{
+		transform:translateX(0%);
+	}
+	100%{
+		transform:translateX(-100%);
+    }
+}
+
+/* left */
+
+@keyframes slide-left {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes next-left {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

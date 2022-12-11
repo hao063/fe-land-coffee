@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+   
+}
+
+@media (max-width: 340px) {
+    .container-header>.header-address {
+        width: auto !important;
+        padding: 3px !important;
+        box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+    }
+
+    .container-header .header-aciton {
+        width: 100% !important;
+    }
+    
+    .container-header>.header-address .address , .container-header>.header-address .fa-angle-down{
+        display: none !important;
+    }
+}

@@ -1,0 +1,15 @@
+@import url('../desktops/base.css');
+@import url('../ipads/base.css');
+@import url('../phones/base.css');
+
+:root {
+    --width-item-category: 86px;
+    --height-item-category: 86px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

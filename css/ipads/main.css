@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+    :root {
+        --width-item-category: 56px;
+        --height-item-category: 56px;
+    }
+
+    .product-home .filter-categories {
+        margin-top: 0px !important;
+    }
+
+    .product-home .filter-categories ul {
+        
+    }
+}

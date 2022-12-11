@@ -1,0 +1,27 @@
+@media (min-width: 1260px) {
+    :root {
+        --width-container-wapper: 1130px;  
+        --width-slider: 1130px;
+    }
+
+    .container-slider {
+        width: var(--width-slider);
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1260px) {
+    :root {
+        --width-container-wapper: 1020px;  
+        --width-slider: 1020px;
+    }
+
+    .container-slider {
+        width: var(--width-slider);
+        margin: 0 auto;
+    }
+
+    .container-slider {
+        padding:0px 10px;
+    }
+}

@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    :root {
+        --width-item-category: 46px;
+        --height-item-category: 46px;
+    }
+
+    .product-home .title {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        justify-content: start;
+        padding: 15px;
+        font-size: 13px !important;
+    }
+
+    .product-home .filter-categories ul {
+        justify-content: start;
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 340px) {
+
+}
