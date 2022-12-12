@@ -1,14 +1,14 @@
-.container-slider {
+.banner-slider .container-slider {
     position: relative;
 }
 
-.slider {
+.banner-slider .slider {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.item {
+.banner-slider .item {
     float: left;
     margin-right: -100%;
     display: none;
@@ -17,7 +17,7 @@
 }
 
 
-.item img {
+.banner-slider .item img {
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -26,28 +26,28 @@
 
 
 /* active */
-.item.active-right {
+.banner-slider .item.active-right {
     display: block;
 	animation: slide-right 1s ease;
 }
 
-.item.active-left {
+.banner-slider .item.active-left {
     display: block;
 	animation: slide-left 1s ease;
 }
 
-.item.active-start {
+.banner-slider .item.active-start {
     display: block !important;
 }
 
 /* next */
-.item.next-right {
+.banner-slider .item.next-right {
     display: block;
 	animation: next-right 1s ease;
 	transform:translateX(-100%);
 }
 
-.item.next-left {
+.banner-slider .item.next-left {
     display: block;
 	animation: next-left 1s ease;
 	transform:translateX(-100%);
@@ -55,12 +55,12 @@
 
 /* indicator */
 
-.indicator {
+.banner-slider .indicator {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.indicator .indicatorChild {
+.banner-slider .indicator .indicatorChild {
     box-sizing: content-box;
     width: 36px;
     height: 4px;
@@ -73,7 +73,7 @@
     transition: 0.7s ease-in-out;
 }
 
-.indicator .indicatorChild.active {
+.banner-slider .indicator .indicatorChild.active {
     background-color: #fff;
 }
 

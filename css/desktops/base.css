@@ -2,6 +2,7 @@
     :root {
         --width-container-wapper: 1130px;  
         --width-slider: 1130px;
+        --width-container-main: 1130px;
     }
 
     .container-slider {
