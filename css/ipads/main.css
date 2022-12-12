@@ -11,7 +11,7 @@
     
     .product-home .result-products .item {
         width: 48% !important;
-        margin: 1%;
+        margin: 1% !important;
         display: flex;
         padding: 5px !important;
     }
