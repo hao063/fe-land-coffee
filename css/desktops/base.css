@@ -15,6 +15,7 @@
     :root {
         --width-container-wapper: 1020px;  
         --width-slider: 1020px;
+        --main-width-result-product: 970px !important;
     }
 
     .container-slider {
@@ -24,5 +25,8 @@
 
     .container-slider {
         padding:0px 10px;
+    }
+    .product-home .result-products .item {
+        margin: 10px 0px 0px 12.5px !important;
     }
 }

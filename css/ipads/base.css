@@ -1,6 +1,7 @@
 @media (max-width: 992px) {
     :root {
         --width-container-wapper: 920px;  
+        --main-width-result-product: 100% !important;
     }
 
     .container-slider {
@@ -10,4 +11,5 @@
     .banner-slider {
         padding-top: 90px !important;
     }
+
 }

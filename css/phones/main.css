@@ -22,6 +22,23 @@
         margin: 0px 20px !important;
     }
 
+    .product-home .result-products .item {
+        width: 100% !important;
+        margin: 10px 0;
+        display: flex;
+        padding: 5px !important;
+    }
+
+    .product-home .result-products .item .img-product {
+        margin: 0 !important;
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .product-home .result-products .item .product-info {
+        width: calc(100% - 90px) !important;
+    }
+
 }
 
 @media (max-width: 340px) {

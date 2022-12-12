@@ -2,21 +2,7 @@
 @import url('../ipads/header.css');
 @import url('../phones/header.css');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-a {
-    color: #000;
-    text-decoration: none;
-}
-
-ul, li {
-    list-style: none;
-}
 .wapper header {
     background: radial-gradient(100% 501.4% at 0% 100%,#ffb141 0%,#fb8d17 100%);;
     padding:12px 0px;

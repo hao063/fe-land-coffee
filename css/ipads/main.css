@@ -8,4 +8,31 @@
         margin-top: 0px !important;
     }
   
+    
+    .product-home .result-products .item {
+        width: 48% !important;
+        margin: 1%;
+        display: flex;
+        padding: 5px !important;
+    }
+    .product-home .result-products .item .img-product {
+        margin: 0 !important;
+        width: 110px !important;
+        height: 110px !important;
+    }
+
+    .product-home .result-products .item .product-info {
+        position: relative;
+        width: calc(100% - 110px);
+    }
+
+    .product-home .result-products .item .title-product {
+        padding: 0px 10px !important;
+    }
+
+    .product-home .result-products .item .action-product {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
