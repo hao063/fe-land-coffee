@@ -26,7 +26,17 @@
     .container-slider {
         padding:0px 10px;
     }
-    .product-home .result-products .item {
+    .session-product-home .result-products .item {
         margin: 10px 0px 0px 12.5px !important;
+    }
+
+    .session-new .container-result-new .item-new  {
+        width: 212px !important;
+        margin: 20px 20px 0px 0px !important;
+    }
+
+    .session-new .container-result-new .img-new {
+        width: 212px !important;
+        height: 145px !important;
     }
 }

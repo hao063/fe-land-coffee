@@ -1,14 +1,14 @@
-.banner-slider .container-slider {
+.session-banner-slider .container-slider {
     position: relative;
 }
 
-.banner-slider .slider {
+.session-banner-slider .slider {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.banner-slider .item {
+.session-banner-slider .item {
     float: left;
     margin-right: -100%;
     display: none;
@@ -17,7 +17,7 @@
 }
 
 
-.banner-slider .item img {
+.session-banner-slider .item img {
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -26,28 +26,28 @@
 
 
 /* active */
-.banner-slider .item.active-right {
+.session-banner-slider .item.active-right {
     display: block;
 	animation: slide-right 1s ease;
 }
 
-.banner-slider .item.active-left {
+.session-banner-slider .item.active-left {
     display: block;
 	animation: slide-left 1s ease;
 }
 
-.banner-slider .item.active-start {
+.session-banner-slider .item.active-start {
     display: block !important;
 }
 
 /* next */
-.banner-slider .item.next-right {
+.session-banner-slider .item.next-right {
     display: block;
 	animation: next-right 1s ease;
 	transform:translateX(-100%);
 }
 
-.banner-slider .item.next-left {
+.session-banner-slider .item.next-left {
     display: block;
 	animation: next-left 1s ease;
 	transform:translateX(-100%);
@@ -55,12 +55,12 @@
 
 /* indicator */
 
-.banner-slider .indicator {
+.session-banner-slider .indicator {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.banner-slider .indicator .indicatorChild {
+.session-banner-slider .indicator .indicatorChild {
     box-sizing: content-box;
     width: 36px;
     height: 4px;
@@ -73,7 +73,7 @@
     transition: 0.7s ease-in-out;
 }
 
-.banner-slider .indicator .indicatorChild.active {
+.session-banner-slider .indicator .indicatorChild.active {
     background-color: #fff;
 }
 
