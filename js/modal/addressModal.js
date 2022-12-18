@@ -30,7 +30,7 @@ $(document).ready(function () {
                 $('#model-backdrop').attr('class', 'hiden');
                 $('#modal-address').removeClass('fade');
                 $('#modal-address').addClass('hiden');
-            }, 1000);
+            }, 700);
         }
     });
 });
