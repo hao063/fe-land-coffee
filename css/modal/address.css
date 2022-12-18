@@ -8,7 +8,7 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
-    transition: 0.7s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
 
 @keyframes model-backdrop-show {
@@ -33,11 +33,11 @@
 
 #model-backdrop.show {
     display: block;
-    animation: model-backdrop-show 1s ease;
+    animation: model-backdrop-show 0.6s ease;
 }
 
 #model-backdrop.fade {
-    animation: model-backdrop-fade 1s ease;
+    animation: model-backdrop-fade 0.6s ease;
     /* display: none;  */
 }
 
@@ -55,7 +55,7 @@
     margin-left: -350px;
     top: 20%;
     border-radius: 10px;
-    transition: 0.7s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
 
 @media (max-width: 768px) {
@@ -68,11 +68,11 @@
 
 #modal-address.show {
     display: block;
-    animation: modal-address-show 1s ease;
+    animation: modal-address-show 0.6s ease;
 }
 
 #modal-address.fade {
-    animation: modal-address-fade 1s ease;
+    animation: modal-address-fade 0.6s ease;
 }
 
 #modal-address.hiden {
