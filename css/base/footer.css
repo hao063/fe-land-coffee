@@ -1,3 +1,118 @@
-footer {
-    padding-bottom: 200px;
+footer .footer-1 {
+    margin-top: 100px;
+    background-image: url('/images/footer/footer-desktop.727f3a2.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+footer .footer-1 .category-footer {
+    /* max-width: var(--main-width-result-product); */
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 20px auto;
+    width: 100%;
+}
+
+
+footer .footer-1 .category-footer .item {
+    width: 23%;
+    margin: 1%;
+}
+
+footer .footer-1 .category-footer .item .item-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer .footer-1 .category-footer .item .item-title .svg-inline--fa {
+    margin-right: 10px;
+}
+
+footer .footer-1 .category-footer .item .width-buttom {
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.434);
+    margin-top: 10px;
+}
+
+footer .footer-1 .category-footer .item .item-detail{
+    margin-left: 42px;
+    margin-top: 10px;
+    display: none;
+}
+
+footer .footer-1 .category-footer .item .item-detail.active {
+    display: block !important;
+
+}
+
+footer .footer-1 .category-footer .item .item-detail.hiden {
+    display: none !important;
+}
+
+footer .footer-1 .category-footer .item .item-detail li {
+    list-style:disc;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: 0.7s ease-in-out;
+}
+
+footer .footer-1 .category-footer .item .item-detail li.active {
+    animation: animation-menu-footer 1s ease;
+}
+
+footer .footer-1 .category-footer .item .item-detail li.hiden {
+    animation: animation-menu-footer-end 1s ease;
+}
+
+footer .footer-1 .logo-footer img{
+    width: 226px;
+    height: 197px;
+}
+
+footer .footer-2 {
+    padding: 30px;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+
+}
+
+footer .footer-2 h5 {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+footer .footer-2 p {
+    line-height: 17px;
+    font-size: 13px;
+}
+
+footer .footer-2 a {
+    color: rgb(37, 37, 253);
+}
+
+@keyframes animation-menu-footer {
+	0%{
+        margin-top: -15px;
+    }
+	100%{
+        margin-top: 5px;
+	}
+}
+
+@keyframes animation-menu-footer-end {
+	0%{
+        margin-top: 5px;
+    }
+	100%{
+        margin-top: -15px;
+	}
 }
