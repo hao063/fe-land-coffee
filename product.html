@@ -4,9 +4,576 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/base/header.css">
+    <link rel="stylesheet" href="./css/base/footer.css">
+    <link rel="stylesheet" href="./css/base/main.css">
+    <link rel="stylesheet" href="./css/base/slider.css">
+
+    <!-- modal -->
+    <link rel="stylesheet" href="./css/modal/address.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="fontawesome6/css/all.min.css">
+    <script src="fontawesome6/js/all.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./images/footer/land_coffee.png">
+
+    <!-- event -->
+    <link rel="stylesheet" href="./css/event/snow.css">
 </head>
 <body>
     
+
+    <div class="wapper">
+        <header>
+            <div class="container-header">
+                <div class="header-logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="header-address flex-center">
+                    <div class="logo flex-center">
+                        <img src="./images/Delivery2.png" alt="">
+                    </div>
+                    <div class="address">
+                        <h4>Giao hàng</h4>
+                        <p>Tại: nhập địa chỉ giao hàng</p>
+                    </div>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="header-menu">
+                    <ul class="flex-center">
+                        <li class="active-header-menu">Đặt hàng</li>
+                        <li>Tin tức</li>
+                        <li>Cửa hàng</li>
+                        <li>Khuyến mãi</li>
+                        <li>Tuyển dụng</li>
+                    </ul>
+                </div>
+                <div class="header-aciton">
+                    <div class="login">
+                        <img src="./images/user.png" alt="">
+                    </div>
+                    <div class="cart">
+                        <img src="./images/cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container-main">
+                <section class="session-banner-slider">
+                    <div class="container-slider">
+                        <div class="slider">
+                            <div data-slide="0" class="item active-start">
+                                <a href="#">
+                                    <img src="./images/slide/1669823062_banner-web.jpg" alt="">
+                                </a>
+                            </div>
+                            <div data-slide="1" class="item">
+                                <a href="#">
+                                    <img src="./images/slide/1669823223_tuyetvoi-web.jpg" alt="">
+                                </a>
+                            </div>
+                            <div data-slide="2" class="item">
+                                <a href="">
+                                    <img src="./images/slide/1669824706_ansang9k-web.jpg" alt="">
+                                </a>
+                            </div>
+                            <div data-slide="3" class="item">
+                                <a href="">
+                                    <img src="./images/slide/1669906738_daitiec-web.jpg" alt="">
+                                </a>
+                            </div>
+                            <div data-slide="4" class="item">
+                                <a href="">
+                                    <img src="./images/slide/1669950044_banner-web.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="indicator">
+                        </div>
+                    </div>
+                </section>
+                <section class="session-product-home">
+                    <div class="title flex-center">
+                        <i class="fa-solid fa-trophy"></i>
+                        <h2>Sản phẩm từ nhà</h2>
+                    </div>
+                    <div class="filter-categories">
+                        <ul>
+                            <li>
+                                <div class="item-category active">
+                                    <img src="./images/main/category/ca-phe.png" alt="">
+                                </div>
+                                <h5>Cà phê</h5>
+                            </li>
+                            <li>
+                                <div class="item-category">
+                                    <img src="./images/main/category/cloudfee.png" alt="">
+                                </div>
+                                <h5>CloudFee</h5>
+                            </li>
+                            <li>
+                                <div class="item-category">
+                                    <img src="./images/main/category/cloudtea.png" alt="">
+                                </div>
+                                <h5>CloudTea</h5>
+                            </li>
+                            <li>
+                                <div class="item-category">
+                                    <img src="./images/main/category/hi-tea.png" alt="">
+                                </div>
+                                <h5>Hi-Tea Healthy</h5>
+                            </li>
+                            <li>
+                                <div class="item-category">
+                                    <img src="./images/main/category/tra-trai-cay-tra-sua.png" alt="">
+                                </div>
+                                <h5>Trà Trái Cây - Trà Sữa</h5>
+                            </li>
+                            <li>
+                                <div class="item-category">
+                                    <img src="./images/main/category/ca-phe-goi-ca-phe-uong-lien.png" alt="">
+                                </div>
+                                <h5>Thưởng thức tại nhà</h5>
+                            </li>
+                            <li>
+                                <div class="item-category">
+                                    <img src="./images/main/category/banh-snack.png" alt="">
+                                </div>
+                                <h5>Bánh - Snack</h5>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="result-products">
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img-product">
+                                <img src="./images/main/product/1639377770_cfsua-nong_400x400.jpg" alt="">
+                            </div>
+                            <div class="product-info">
+                                <div class="title-product">
+                                    <h5>
+                                        The conffee
+                                    </h5>
+                                </div>
+                                <div class="action-product">
+                                    <span>39.000đ</span>
+                                    <div class="add-more flex-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="more-product">
+                        <span>
+                            Xem tất cả
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </section>
+                <section class="session-new">
+                    <div class="title flex-center">
+                        <i class="fa-solid fa-newspaper"></i>
+                        <h2>Tin tức</h2>
+                    </div>
+                    <div class="container-result-new">
+                        <div class="item-new">
+                            <div class="img-new">
+                                <img src="./images/main/new/217911387_2095123453979332_7844425427221327299_n.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="title-new">
+                                <h5>HI-TEA HEALTHY: DA ĐẸP DÁNG XINH - RINH DEAL 0Đ</h5>
+                            </div>
+                            <div class="view-more-new">
+                                <span>Đọc tiếp</span>
+                            </div>
+                        </div>
+                        <div class="item-new">
+                            <div class="img-new">
+                                <img src="./images/main/new/217911387_2095123453979332_7844425427221327299_n.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="title-new">
+                                <h5>HI-TEA HEALTHY: DA ĐẸP DÁNG XINH - RINH DEAL 0Đ</h5>
+                            </div>
+                            <div class="view-more-new">
+                                <span>Đọc tiếp</span>
+                            </div>
+                        </div>
+                        <div class="item-new">
+                            <div class="img-new">
+                                <img src="./images/main/new/217911387_2095123453979332_7844425427221327299_n.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="title-new">
+                                <h5>HI-TEA HEALTHY: DA ĐẸP DÁNG XINH - RINH DEAL 0Đ</h5>
+                            </div>
+                            <div class="view-more-new">
+                                <span>Đọc tiếp</span>
+                            </div>
+                        </div>
+                        <div class="item-new">
+                            <div class="img-new">
+                                <img src="./images/main/new/217911387_2095123453979332_7844425427221327299_n.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="title-new">
+                                <h5>HI-TEA HEALTHY: DA ĐẸP DÁNG XINH - RINH DEAL 0Đ</h5>
+                            </div>
+                            <div class="view-more-new">
+                                <span>Đọc tiếp</span>
+                            </div>
+                        </div>
+                        <div class="item-new">
+                            <div class="img-new">
+                                <img src="./images/main/new/217911387_2095123453979332_7844425427221327299_n.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="title-new">
+                                <h5>HI-TEA HEALTHY: DA ĐẸP DÁNG XINH - RINH DEAL 0Đ</h5>
+                            </div>
+                            <div class="view-more-new">
+                                <span>Đọc tiếp</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-new">
+                        <span>
+                            Xem tất cả
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-1">
+                <div class="logo-footer flex-center">
+                    <img src="./images/footer/land_coffee.png" alt="">
+                </div>
+                <div class="category-footer">
+                    <div class="item">
+                        <div data-footer="1" class="item-title">
+                            <i class="fa-solid fa-plus"></i>
+                            <h5>Thông tin website</h5>
+                        </div>
+                        <div data-footer-child="1" class="item-detail">
+                            <ul>
+                                <li>Trang chủ</li>
+                                <li>Đặt hàng</li>
+                                <li>Tin tức</li>
+                                <li>Tuyển dụng</li>
+                                <li>Khuyển mãi</li>
+                            </ul>
+                        </div>
+                        <div class="width-buttom"></div>
+                    </div>
+                    <div class="item">
+                        <div data-footer="2" class="item-title">
+                            <i class="fa-solid fa-plus"></i>
+                            <h5>Thông tin website</h5>
+                        </div>
+                        <div data-footer-child="2" class="item-detail">
+                            <ul>
+                                <li>Trang chủ</li>
+                                <li>Đặt hàng</li>
+                                <li>Tin tức</li>
+                                <li>Tuyển dụng</li>
+                                <li>Khuyển mãi</li>
+                            </ul>
+                        </div>
+                        <div class="width-buttom"></div>
+                    </div>
+                    <div class="item">
+                        <div data-footer="3" class="item-title">
+                            <i class="fa-solid fa-plus"></i>
+                            <h5>Thông tin website</h5>
+                        </div>
+                        <div data-footer-child="3" class="item-detail">
+                            <ul>
+                                <li>Trang chủ</li>
+                                <li>Đặt hàng</li>
+                                <li>Tin tức</li>
+                                <li>Tuyển dụng</li>
+                                <li>Khuyển mãi</li>
+                            </ul>
+                        </div>
+                        <div class="width-buttom"></div>
+                    </div>
+                    <div class="item">
+                        <div data-footer="4" class="item-title">
+                            <i class="fa-solid fa-plus"></i>
+                            <h5>Thông tin website</h5>
+                        </div>
+                        <div data-footer-child="4" class="item-detail">
+                            <ul>
+                                <li>Trang chủ</li>
+                                <li>Đặt hàng</li>
+                                <li>Tin tức</li>
+                                <li>Tuyển dụng</li>
+                                <li>Khuyển mãi</li>
+                            </ul>
+                        </div>
+                        <div class="width-buttom"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-2">
+                <h5>Người thiết kế: Nguyễn Phi Hào</h5>
+                <p>Liên hệ: 0981965431</p>
+                <p>Facebook: <a target="_blank" href="https://www.facebook.com/profile.php?id=100085709025276">Nguyễn
+                        Hào</a></p>
+                <p>Email: phihao063@gmail.com</p>
+                <p>977 Phúc Diễn - Tây Mỗ - Nam Từ Liêm - Hà Nội</p>
+            </div>
+        </footer>
+        <div class="footer-menu-mobile">
+            <ul>
+                <li class="active">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <p>Trang chủ</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <p>Đặt hàng</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-newspaper"></i>
+                    <p>Tin tức</p>
+                </li>
+                <li>
+                    <i class="fa-sharp fa-solid fa-store"></i>
+                    <p>Của hàng</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-bars"></i>
+                    <p>Khác</p>
+                </li>
+            </ul>
+        </div>
+        <div class="snow"></div>
+    </div>
+
+    <!-- modal backdrop -->
+    <div id="model-backdrop" class="hiden"></div>
+    <!-- modal address -->
+    <div id="modal-address" class="modal hiden">
+        <div class="container-modal">
+            <div class="title-modal">
+                <div class="container-title">
+                    <img src="./images/Delivery2.png" alt="">
+                    <span>Giao hàng</span>
+                </div>
+            </div>
+            <div class="content-modal">
+                <div class="group-input flex-center">
+                    <input type="text">
+                    <img src="./images/close.png" alt="">
+                </div>
+                <div class="group-button">
+                    <button class="button-1">Chọn địa chỉ này</button>
+                    <button class="button-2">Sổ địa chỉ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- event snow -->
+    <div id="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+    </div>
+
+
+    <script src="./js/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/modal/addressModal.js"></script>
 </body>
 </html>
