@@ -39,6 +39,7 @@
     background: rgba(232,130,21,0.7);
     width: 235px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .container-header>.header-address .logo {
