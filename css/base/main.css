@@ -15,7 +15,7 @@
     margin-left: -10px;
 }
 
-.session-product-home .title .svg-inline--fa, .session-new .title .svg-inline--fa {
+.session-product-home .title>.svg-inline--fa, .session-new .title .svg-inline--fa {
     color: #fb8d17;
     margin-right: 10px;
 }

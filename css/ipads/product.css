@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+    .session-product-home {
+        margin-top: 100px !important;
+    }
+
+    .session-product-home .title button {
+        margin-left: 65% !important;
+    }
+
+}
