@@ -21,7 +21,7 @@
 
     .session-product-home .filter-categories ul {
         justify-content: start !important;
-        overflow-x: scroll;
+        overflow-x: auto;
     }
 
     .session-product-home .filter-categories li{
