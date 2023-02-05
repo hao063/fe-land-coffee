@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+    .main-product-detail .show-image{
+        width: 320px !important;
+    }
+
+    .main-product-detail>.info-product .show-image .container-img .item {
+        width: 280px !important;
+        height: 280px !important;
+    }
+
+    .main-product-detail>.info-product .container-option-show-img li .item-show-img-product-detail {
+        width: 75px !important;
+        height: 75px !important;
+    }
+
+    .main-product-detail>.info-product .container-option-show-img ul {
+        width: 280px !important;
+    }
+
+    .main-product-detail>.info-product .container-option-show-img .result::-webkit-scrollbar
+    {
+        height: 3px !important;
+    }
+
+    .section-evaluate-product .result-comments-evaluate .item-evaluate .container-comment>.comment-description {
+        font-size: 13px !important;
+    }
+
+    .section-evaluate-product .result-comments-evaluate .item-evaluate .container-comment>.product-size,
+    .section-evaluate-product .result-comments-evaluate .item-evaluate .container-comment>.right-description {
+        font-size: 13px !important;
+    }
+
+    .section-evaluate-product .result-comments-evaluate .item-evaluate .container-comment .container-evaluate-img .item-click-show-comment {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .section-evaluate-product .result-comments-evaluate .item-evaluate .container-comment .container-evaluate-img .item-video>.icon-video {
+        top: 50px !important;
+        font-size: 11px !important;
+        padding: 2px 0px !important;
+        border-radius: 0px 0px 3px 3px !important;
+    }
+
+    .section-evaluate-product .result-comments-evaluate .item-evaluate .container-comment .container-evaluate-img {
+        flex-wrap: wrap;
+    }
+    
+    .section-evaluate-product .container-show-in-img {
+        width: 280px !important;
+        height: 300px !important;
+    }
+
+    .section-evaluate-product .container-show-in-img>.item {
+        width: 280px !important;
+        height: 340px !important;
+    }
+    .section-evaluate-product>.infomation-evaluate .star {
+        width: 100% !important;
+    }
+
+    .container-main {
+        margin-top: 80px !important;
+    }
+
+    .section-evaluate-product>.infomation-evaluate {
+        display: block !important;
+    }
+
+    .section-evaluate-product>.infomation-evaluate .total-star-icon {
+        margin-top: 0px !important;
+    }
+    .section-evaluate-product>.infomation-evaluate .selection-star {
+        margin-top: 10px !important;
+    }
+
+    .submit-product-mobile>.container>div:nth-child(1)>button {
+        padding: 5px 15px !important;
+        font-size: 13px !important;
+    }
+    .action-and-option-product>.action-choose-option>.choose-topping .select .item>div:nth-child(1)>p {
+        font-size: 13px !important;
+    }
+    .action-and-option-product>.action-choose-option>.choose-topping .select .item>div:nth-child(1)>span {
+        font-size: 13px !important;
+    }
+    .action-and-option-product>.action-choose-option>.choose-topping .select .item>div:nth-child(2)>p {
+        font-size: 16px !important;
+    }
+    .action-and-option-product>.action-choose-option>.choose-size .select>ul li label {
+        font-size: 13px !important;
+    }
+    .action-and-option-product>.action-price .action>button, .submit-product-mobile .action>button {
+        width: 28px !important;
+        height: 28px !important;
+        font-size: 17px !important;
+    }
+    .section-evaluate-product {
+        margin-top: 3px;
+    }
+    .section-evaluate-product>.infomation-evaluate {
+        padding: 15px !important;
+    }
+
+    .section-evaluate-product>.infomation-evaluate .selection-star>ul>li{
+        font-size: 13px !important;
+    }
+
+    .section-evaluate-product>.infomation-evaluate .star .total-star-string span{
+        font-size: 19px !important;
+    }
+    .section-evaluate-product>.infomation-evaluate .total-star-icon {
+        font-size: 16px !important;
+    }
+   
+}
+
+@media (max-width: 400px) {
+    .section-evaluate-product .container-show-in-img {
+        width: 200px !important;
+    }
+
+    .section-evaluate-product .container-show-in-img>.item {
+        width: 200px !important;
+        height: 240px !important;
+    }
+}

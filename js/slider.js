@@ -24,10 +24,10 @@ $(document).ready(function () {
     function changeSlideRight(index) {
         slides.attr('class', 'item');
         if (index == 0) {
-            slider.find("[data-slide='" + (slides.length - 1) + "']").addClass("next-right");
+            slider.find("[data-slide='" + (parseInt(slides.length) - 1) + "']").addClass("next-right");
             slider.find("[data-slide='0']").addClass("active-right");
         } else {
-            slider.find("[data-slide='" + (index - 1) + "']").addClass("next-right");
+            slider.find("[data-slide='" + (parseInt(index) - 1) + "']").addClass("next-right");
             slider.find("[data-slide='" + index + "']").addClass("active-right");
         }
     }
@@ -35,10 +35,10 @@ $(document).ready(function () {
     function changeSlideLeft(index) {
         slides.attr('class', 'item');
         if (index == 0) {
-            slider.find("[data-slide='" + (slides.length - 1) + "']").addClass("next-left");
+            slider.find("[data-slide='1']").addClass("next-left");
             slider.find("[data-slide='0']").addClass("active-left");
         } else {
-            slider.find("[data-slide='" + (index - 1) + "']").addClass("next-left");
+            slider.find("[data-slide='" + (parseInt(index) + 1) + "']").addClass("next-left");
             slider.find("[data-slide='" + index + "']").addClass("active-left");
         }
     }
@@ -59,7 +59,17 @@ $(document).ready(function () {
 
     $('.indicatorChild').click(function (e) {
         if (!$(this).hasClass('active')) {
-            if (index < $(this).attr('data')) {
+            if(index == (parseInt(slides.length) - 1) && $(this).attr('data') == 0) {
+                slides.attr('class', 'item');
+                index = 0;
+                slider.find("[data-slide='" + (parseInt(slides.length) - 1) + "']").addClass("next-right");
+                slider.find("[data-slide='0']").addClass("active-right");
+            } else if($(this).attr('data') == (parseInt(slides.length) - 1) && index == 0) {
+                slides.attr('class', 'item');
+                index = $(this).attr('data');
+                slider.find("[data-slide='0']").addClass("next-left");
+                slider.find("[data-slide='"+ (parseInt(slides.length) - 1) +"']").addClass("active-left");
+            } else if (index < $(this).attr('data')) {
                 index = $(this).attr('data');
                 changeSlideRight(index);
             } else {

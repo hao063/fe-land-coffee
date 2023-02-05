@@ -1,5 +1,7 @@
 @media (max-width: 768px) {
-   
+    footer .footer-1 {
+        margin-top: 20px !important;
+    }
 }
 
 @media (max-width: 340px) {
@@ -16,4 +18,5 @@
     .container-header>.header-address .address , .container-header>.header-address .fa-angle-down{
         display: none !important;
     }
+   
 }

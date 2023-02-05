@@ -18,9 +18,6 @@
 
     .footer-menu-mobile {
         display: block !important;
-    }
-
-    .footer-menu-mobile {
         width: 100%;
         position: fixed;
         left: 0;
