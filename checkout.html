@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/base/header.css">
+    <link rel="stylesheet" href="./css/base/footer.css">
+    <link rel="stylesheet" href="./css/base/main.css">
+    <link rel="stylesheet" href="./css/base/slider.css">
+    <link rel="stylesheet" href="./css/base/checkout.css">
+
+    <!-- modal -->
+    <link rel="stylesheet" href="./css/modal/address.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="fontawesome6/css/all.min.css">
+    <script src="fontawesome6/js/all.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./images/footer/land_coffee.png">
+
+    <!-- event -->
+    <link rel="stylesheet" href="./css/event/snow.css">
+
+</head>
+
+<body>
+    <div class="wapper">
+        <header>
+            <div class="container-header">
+                <div class="header-logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="header-address flex-center">
+                    <div class="logo flex-center">
+                        <img src="./images/Delivery2.png" alt="">
+                    </div>
+                    <div class="address">
+                        <h4>Giao hàng</h4>
+                        <p>Tại: nhập địa chỉ giao hàng</p>
+                    </div>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="header-menu">
+                    <ul class="flex-center">
+                        <li class="active-header-menu">Đặt hàng</li>
+                        <li>Tin tức</li>
+                        <li>Cửa hàng</li>
+                        <li>Khuyến mãi</li>
+                        <li>Tuyển dụng</li>
+                    </ul>
+                </div>
+                <div class="header-aciton">
+                    <div class="login">
+                        <img src="./images/user.png" alt="">
+                    </div>
+                    <div class="cart">
+                        <img src="./images/cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container-main">
+                <section class="checkout-product">
+                    <div class="title-checkout">
+                        <i class="fa-solid fa-file"></i>
+                        <h3>Xác nhận đơn hàng</h4>
+                    </div>
+                    <div class="main-checkout">
+                        <div class="container-action-delivery">
+                            <div class="header-delivery">
+                                <div class="title">
+                                    Giao hàng
+                                </div>
+                            </div>
+                            <div class="container-address">
+                                <div class="avatar-address">
+                                    <img src="./images/Delivery2.png" alt="">
+                                </div>
+                                <div class="acction-delivery">
+                                    <div class="item">
+                                        <div>
+                                            <span>Đường Đồng Khởi</span>
+                                            <p>Đường Đồng Khởi, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</p>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div>
+                                            <span>Nhận hàng trong ngày 15-30 phút</span>
+                                            <p>Vào lúc: Càng sớm càng tốt</p>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group-input">
+                                <div class="item-input">
+                                    <input type="text" placeholder="Tên người nhận">
+                                </div>
+                                <div class="item-input">
+                                    <input type="text" placeholder="Số điện thoại">
+                                </div>
+                                <div class="item-input">
+                                    <input type="text" placeholder="Thêm hướng dẫn giao hàng">
+                                </div>
+                            </div>
+                            <div class="container-pay">
+                                <div class="title">
+                                    Phương thức thanh toán
+                                </div>
+                                <div class="choose-type-pay">
+                                    <ul>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size" id="radio-choose-size-1">
+                                            <label for="radio-choose-size-1" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-1">
+                                                <img src="./images/main/checkout/1000_photo_2021-04-06_11-17-08.jpg"
+                                                    alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size" id="radio-choose-size-2">
+                                            <label for="radio-choose-size-2" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-2">
+                                                <img src="./images/main/checkout/1120_1119_ShopeePay-Horizontal2_O.png"
+                                                    alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size" id="radio-choose-size-3">
+                                            <label for="radio-choose-size-3" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-3">
+                                                <img src="./images/main/checkout/385_ic_atm@3x.png" alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size" id="radio-choose-size-4">
+                                            <label for="radio-choose-size-4" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-4">
+                                                <img src="./images/main/checkout/386_ic_momo@3x.png" alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size" id="radio-choose-size-5">
+                                            <label for="radio-choose-size-5" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-5">
+                                                <img src="./images/main/checkout/388_ic_zalo@3x.png" alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-pay">
+                                    <div class="form-group">
+                                        <input type="checkbox" id="checkbox-accept-rules">
+                                        <label for="checkbox-accept-rules">
+                                            Đồng ý với các <a>điều khoản và điều kiện</a>
+                                            mua hàng của Land Coffee
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-choose-product">
+                            <div>
+                                <div class="header-cart">
+                                    <div class="title">
+                                        Các món đã chọn
+                                    </div>
+                                    <div class="add-more-product">
+                                        Thêm món
+                                    </div>
+                                </div>
+                                <div class="cart-product">
+                                    <div class="item-product">
+                                        <div>
+                                            <i class="fa-solid fa-pen"></i>
+                                        </div>
+                                        <div>
+                                            <span>2x Hồng Trà Sữa Trân Châu</span>
+                                            <p>Vừa</p>
+                                            <button>Xoá</button>
+                                        </div>
+                                        <div>
+                                            118.000đ
+                                        </div>
+                                    </div>
+                                    <div class="item-product">
+                                        <div>
+                                            <i class="fa-solid fa-pen"></i>
+                                        </div>
+                                        <div>
+                                            <span>2x Hồng Trà Sữa Trân Châu</span>
+                                            <p>Vừa</p>
+                                            <button>Xoá</button>
+                                        </div>
+                                        <div>
+                                            118.000đ
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header-total">
+                                    <div class="title">
+                                        Tổng cộng
+                                    </div>
+                                </div>
+                                <div class="total-price">
+                                    <div class="into-money">
+                                        <div>
+                                            Thành tiền
+                                        </div>
+                                        <div>226.000đ</div>
+                                    </div>
+                                    <div class="delivery-charges">
+                                        <div>Phí giao hàng</div>
+                                        <div>18.000đ</div>
+                                    </div>
+                                    <div class="promotion">
+                                        <div class="title-promotion">
+                                            Khuyến mãi
+                                        </div>
+                                        <div class="container-promotion">
+                                            <div>
+                                                <div>Giảm 20k đơn 50k</div>
+                                                <button>Xoá</button>
+                                            </div>
+                                            <div>
+                                                -20.000đ
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-checkout">
+                                <div>
+                                    <div>Thành tiền</div>
+                                    <div class="money">224.000đ</div>
+                                </div>
+                                <div>
+                                    <button>
+                                        Đặt hàng
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="container-pay container-pay-size-small">
+                                <div class="title">
+                                    Phương thức thanh toán
+                                </div>
+                                <div class="choose-type-pay">
+                                    <ul>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size-mobile"
+                                                id="radio-choose-size-mobile-1">
+                                            <label for="radio-choose-size-mobile-1" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-mobile-1">
+                                                <img src="./images/main/checkout/1000_photo_2021-04-06_11-17-08.jpg"
+                                                    alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size-mobile"
+                                                id="radio-choose-size-mobile-2">
+                                            <label for="radio-choose-size-mobile-2" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-mobile-2">
+                                                <img src="./images/main/checkout/1120_1119_ShopeePay-Horizontal2_O.png"
+                                                    alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size-mobile"
+                                                id="radio-choose-size-mobile-3">
+                                            <label for="radio-choose-size-mobile-3" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-mobile-3">
+                                                <img src="./images/main/checkout/385_ic_atm@3x.png" alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size-mobile"
+                                                id="radio-choose-size-mobile-4">
+                                            <label for="radio-choose-size-mobile-4" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-mobile-4">
+                                                <img src="./images/main/checkout/386_ic_momo@3x.png" alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                        <li class="item">
+                                            <input type="radio" name="radio-choose-size-mobile"
+                                                id="radio-choose-size-mobile-5">
+                                            <label for="radio-choose-size-mobile-5" class="check flex-center">
+                                                <div></div>
+                                            </label>
+                                            <label class="label-text" for="radio-choose-size-mobile-5">
+                                                <img src="./images/main/checkout/388_ic_zalo@3x.png" alt="">
+                                                <span>Tiền mặt</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-pay">
+                                    <div class="form-group">
+                                        <input type="checkbox" id="checkbox-accept-rules-mobile">
+                                        <label for="checkbox-accept-rules-mobile">
+                                            Đồng ý với các <a>điều khoản và điều kiện</a>
+                                            mua hàng của Land Coffee
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="remove-checkout flex-center">
+                                <i class="fa-solid fa-trash"></i> <span>Xoá đơn hàng</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-1" style="background-image: url('images/footer/footer-desktop.727f3a2.png');">
+                <div class="logo-footer flex-center">
+                    <img src="./images/footer/land_coffee.png" alt="">
+                </div>
+                <div class="category-footer">
+                    <div class="item">
+                        <div data-footer="1" class="item-title">
+                            <i class="fa-solid fa-plus"></i>
+                            <h5>Thông tin website</h5>
+                        </div>
+                        <div data-footer-child="1" class="item-detail">
+                            <ul>
+                                <li>Trang chủ</li>
+                                <li>Đặt hàng</li>
+                                <li>Tin tức</li>
+                                <li>Tuyển dụng</li>
+                                <li>Khuyển mãi</li>
+                            </ul>
+                        </div>
+                        <div class="width-buttom"></div>
+                    </div>
+                    <div class="item">
+                        <div data-footer="2" class="item-title">
+                            <i class="fa-solid fa-plus"></i>
+                            <h5>Thông tin website</h5>
+                        </div>
+                        <div data-footer-child="2" class="item-detail">
+                            <ul>
+                                <li>Trang chủ</li>
+                                <li>Đặt hàng</li>
+                                <li>Tin tức</li>
+                                <li>Tuyển dụng</li>
+                                <li>Khuyển mãi</li>
+                            </ul>
+                        </div>
+                        <div class="width-buttom"></div>
+                    </div>
+                    <div class="item">
+                        <div data-footer="3" class="item-title">
+                            <i class="fa-solid fa-plus"></i>
+                            <h5>Thông tin website</h5>
+                        </div>
+                        <div data-footer-child="3" class="item-detail">
+                            <ul>
+                                <li>Trang chủ</li>
+                                <li>Đặt hàng</li>
+                                <li>Tin tức</li>
+                                <li>Tuyển dụng</li>
+                                <li>Khuyển mãi</li>
+                            </ul>
+                        </div>
+                        <div class="width-buttom"></div>
+                    </div>
+                    <div class="item">
+                        <div data-footer="4" class="item-title">
+                            <i class="fa-solid fa-plus"></i>
+                            <h5>Thông tin website</h5>
+                        </div>
+                        <div data-footer-child="4" class="item-detail">
+                            <ul>
+                                <li>Trang chủ</li>
+                                <li>Đặt hàng</li>
+                                <li>Tin tức</li>
+                                <li>Tuyển dụng</li>
+                                <li>Khuyển mãi</li>
+                            </ul>
+                        </div>
+                        <div class="width-buttom"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-2">
+                <h5>Người thiết kế: Nguyễn Phi Hào</h5>
+                <p>Liên hệ: 0981965431</p>
+                <p>Facebook: <a target="_blank" href="https://www.facebook.com/profile.php?id=100085709025276">Nguyễn
+                        Hào</a></p>
+                <p>Email: phihao063@gmail.com</p>
+                <p>977 Phúc Diễn - Tây Mỗ - Nam Từ Liêm - Hà Nội</p>
+            </div>
+        </footer>
+        <div class="submit-checkout-mobile">
+            <div class="price">
+                <div>
+                    Thành tiền
+                </div>
+                <div>
+                    87.000đ
+                </div>
+            </div>
+            <div class="action">
+                <button>
+                    Đặt hàng
+                </button>
+            </div>
+        </div>
+        <div class="footer-menu-mobile">
+            <ul>
+                <li class="active">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <p>Trang chủ</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <p>Đặt hàng</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-newspaper"></i>
+                    <p>Tin tức</p>
+                </li>
+                <li>
+                    <i class="fa-sharp fa-solid fa-store"></i>
+                    <p>Của hàng</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-bars"></i>
+                    <p>Khác</p>
+                </li>
+            </ul>
+        </div>
+        <div class="snow"></div>
+    </div>
+
+    <!-- modal backdrop -->
+    <div id="model-backdrop" class="hiden"></div>
+    <!-- modal address -->
+    <div id="modal-address" class="modal hiden">
+        <div class="container-modal">
+            <div class="title-modal">
+                <div class="container-title">
+                    <img src="./images/Delivery2.png" alt="">
+                    <span>Giao hàng</span>
+                </div>
+            </div>
+            <div class="content-modal">
+                <div class="group-input flex-center">
+                    <input type="text">
+                    <img src="./images/close.png" alt="">
+                </div>
+                <div class="group-button">
+                    <button class="button-1">Chọn địa chỉ này</button>
+                    <button class="button-2">Sổ địa chỉ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- event snow -->
+    <div id="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+    </div>
+
+    <!-- link js  -->
+    <script src="./js/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/modal/addressModal.js"></script>
+
+</body>
+
+</html>

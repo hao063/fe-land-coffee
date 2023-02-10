@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    .checkout-product .title-checkout>h3 {
+        font-size: 20px;
+    }
+
+    .checkout-product .main-checkout {
+        margin-top: 20px !important;
+    }
+
+    .checkout-product .main-checkout>.container-action-delivery>.header-delivery,
+    .container-choose-product .header-cart .title,
+    .container-choose-product .header-total .title,
+    .main-checkout .container-pay .title {
+        font-size: 16px !important;
+    }
+
+    .main-checkout>.container-action-delivery>.container-address .acction-delivery .item span {
+        font-size: 13px !important;
+    }
+
+    .main-checkout>.container-action-delivery>.container-address .acction-delivery .item p, 
+    .container-choose-product .header-cart .add-more-product,
+    .container-choose-product .cart-product>.item-product>div:nth-child(2) {
+        font-size: 12px !important;
+    }
+
+    .main-checkout>.container-action-delivery>.container-address .acction-delivery .item>div:nth-child(2) {
+        font-size: 20px !important;
+    }
+
+    .main-checkout>.container-action-delivery>.group-input input{
+        font-size: 13px !important;
+    }
+
+    .container-choose-product .cart-product>.item-product>div:nth-child(3),
+    .container-choose-product .total-price .into-money>div:nth-child(2),
+    .container-choose-product .total-price .delivery-charges>div:nth-child(2) {
+        font-size: 15px !important;
+    }
+
+    .container-choose-product .promotion .container-promotion>div:nth-child(1),
+    .main-checkout .container-pay ul li .label-text,
+    .checkout-product .footer-pay label  {
+        font-size: 14px !important;
+    }
+
+   
+
+}
