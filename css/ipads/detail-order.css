@@ -1,0 +1,27 @@
+@media (max-width: 992px) {
+    .session-order-detail {
+        padding: 10px !important;
+    }
+    
+    .session-order-detail .container-order-detail {
+        width: 100% !important;
+    }
+
+    .session-order-detail .order-journey {
+        display: none !important;
+    }
+
+    .session-order-detail .container-address {
+        display: block !important;
+    }
+    .session-order-detail .container-address>div {
+        width: 100% !important;
+    }
+    .session-order-detail .container-address>.address::after {
+        display: none !important;
+    }
+    .session-order-detail .container-address>.info-order .container {
+        padding: 20px !important;
+        margin: 0px !important;
+    }
+}

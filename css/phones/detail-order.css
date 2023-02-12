@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+    .session-order-detail .evaluate-order button, .session-order-detail .buy-it-agin button {
+        font-size: 13px !important;
+        padding: 10px 20px !important;
+    }
+
+    .session-order-detail .container-address>.info-order .item>div:nth-child(2) {
+        font-size: 12px !important;
+    }
+
+    .session-order-detail .container-address>.info-order .item>div:nth-child(3) {
+        font-size: 13px !important;
+    }
+
+    .session-order-detail .container-address>.info-order .item>div:nth-child(2) {
+        margin-top: 3px !important;
+    }
+
+    .session-order-detail .evaluate-order>div {
+        width: 50%;
+    }
+
+    .session-order-detail .evaluate-order>div:nth-child(2) {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .session-order-detail .container-address>.info-order .item>div:nth-child(1) {
+        width: 15px !important;
+        height: 15px !important;
+    }
+
+    .session-order-detail .VLmetq {
+        left: 6px !important;
+    }
+
+    .session-order-detail .container-address>.info-order .item>div:nth-child(2) {
+        width: 35% !important;
+    }
+
+    .session-order-detail .container-address>.info-order .item>div:nth-child(3) {
+        width: calc(65% - 15px) !important;
+    }
+
+    .session-order-detail .container-address>.info-order .item>div:nth-child(1) {
+        width: 15px !important;
+    }
+
+    .session-order-detail .product .item>div:nth-child(2)>div:nth-child(1) {
+        width: 100% !important;
+    }
+
+    .session-order-detail .product .item>div:nth-child(3) del {
+        font-size: 12px !important;
+    }
+
+    .session-order-detail .product .item>div:nth-child(3) span {
+        font-size: 15px !important;
+    }
+
+    .session-order-detail .product .item>div:nth-child(2)>div:nth-child(1) {
+        font-size: 14px !important;
+    }
+
+    .session-order-detail .product .item>div:nth-child(2)>div:nth-child(2), .session-order-detail .product .item>div:nth-child(2)>div:nth-child(3) {
+        font-size: 12px !important;
+    }
+
+    .session-order-detail .product .item>div:nth-child(1) {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .session-order-detail .product .item>div:nth-child(2) {
+        width: calc(70% - 70px)  !important;
+    }
+
+}

@@ -5,6 +5,11 @@
     margin-top: 130px;
 }
 
+.session-order-product>.title {
+    display: flex;
+    align-items: center;
+}
+
 .session-order-product>.title .svg-inline--fa{
     color: #f08008;
     font-size: 20px;
@@ -66,7 +71,7 @@
 .session-order-product .container-rusult-order {
     width: 800px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
     height: 700px;
     overflow-y: auto;
     padding: 5px;
