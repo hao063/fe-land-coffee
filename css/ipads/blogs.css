@@ -1,0 +1,19 @@
+@media (max-width: 992px) {
+    .session-blogs .container-result-blogs {
+        width:  100% !important;
+    }
+
+    .session-blogs .container-result-blogs .item-blog {
+        width: 40% !important;
+        margin: 20px 5% !important;
+    }
+
+    .session-blogs .show-more{
+        margin-top: 35px !important;
+    }
+
+    .session-blogs .menu-blog::-webkit-scrollbar
+    {
+        height: 2px !important; 
+    }
+}

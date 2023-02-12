@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .session-blogs .container-result-blogs .item-blog {
+        width:100% !important;
+    }
+
+    .session-blogs .show-more{
+        margin-top: 15px !important;
+    }
+
+    .session-blogs .container-menu-blog {
+        width: 100% !important;
+        background: none !important;
+        box-shadow: none !important;
+        border: none !important;
+        border-radius: 0px !important;
+    }
+}

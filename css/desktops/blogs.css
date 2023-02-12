@@ -1,0 +1,17 @@
+@media (max-width: 1260px) {
+    .session-blogs .container-result-blogs {
+        width:  900px !important;
+    }
+
+    .session-blogs .container-result-blogs .item-blog img {
+        height: 120px !important;
+    }
+
+    .session-blogs .container-result-blogs .item-blog .title {
+        font-size: 13px !important;
+    }
+    .session-blogs .container-result-blogs .item-blog .read-more button {
+        padding: 7px !important;
+        font-size: 12px !important;
+    }
+}

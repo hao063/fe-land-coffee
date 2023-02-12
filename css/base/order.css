@@ -1,0 +1,194 @@
+@import url('../ipads/order.css');
+@import url('../phones/order.css');
+
+.session-order-product {
+    margin-top: 130px;
+}
+
+.session-order-product>.title .svg-inline--fa{
+    color: #f08008;
+    font-size: 20px;
+}
+
+.session-order-product>.title h2 {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.session-order-product .container-menu-order {
+    border: 1px solid rgb(237, 235, 235);
+    box-shadow: 0px 0px 3px 0px rgb(235, 232, 232);
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.session-order-product .menu-order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    background: #fff;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 30px;
+    justify-content: center;
+}
+
+
+.session-order-product .menu-order .item {
+    margin: auto;
+    color: rgba(38,38,38,.5);
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    flex-shrink: 0;
+    padding: 0 10px;
+}
+
+.session-order-product .menu-order .item:hover {
+    color: #e87800;
+}
+
+.session-order-product .menu-order .item.active {
+    background: radial-gradient(100% 488.28% at 0 100%,#e87800 0,#fa8c16 100%);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+    border-radius: 100px;
+    height: 32px;
+    color: #fff;
+}
+
+.session-order-product .container-rusult-order {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 700px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.session-order-product .container-rusult-order::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(222, 222, 222, 0.3);
+	background-color: #F5F5F5;
+
+}
+
+.session-order-product .container-rusult-order::-webkit-scrollbar
+{
+    width: 10px;
+	background-color: #ffffff;
+}
+
+.session-order-product .container-rusult-order::-webkit-scrollbar-thumb
+{
+	background-color: rgb(193, 189, 189);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+
+.session-order-product .container-rusult-order .item-order {
+    width: 100%;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.session-order-product .container-rusult-order .status {
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    color: #f08008;
+}
+
+.session-order-product .container-rusult-order .item-order>.info-product {
+    display: flex;
+    width: 100%;
+
+}
+
+.session-order-product .container-rusult-order .item-order>.info-product .img {
+    width: 20%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.session-order-product .container-rusult-order .item-order>.info-product img  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.session-order-product .container-rusult-order .item-order>.info-product .name-product {
+    padding-left: 20px;
+    width: 80%;
+}
+
+
+.session-order-product .container-rusult-order .item-order>.info-product .name-product .name {
+    font-size: 15px;
+    color: #000;
+}
+
+.session-order-product .container-rusult-order .item-order .name-product>.type-total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.session-order-product .container-rusult-order .item-order .name-product>.type-total>div:nth-child(1) {
+    color: #898787;
+}
+
+.session-order-product .container-rusult-order .item-order  .name-product>.price {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.session-order-product .container-rusult-order .item-order  .name-product>.price del {
+    color: #898787;
+}
+
+.session-order-product .container-rusult-order .item-order  .name-product>.price span {
+    font-size: 18px;
+    color: #e87800;
+    margin-left: 10px;
+}
+
+.session-order-product .price-product-order {
+    border-top: 1px solid rgb(235, 230, 230);
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.session-order-product .price-product-order>div:nth-child(1) {
+    font-size: 12px;
+
+}
+
+.session-order-product .price-product-order>div:nth-child(2) {
+    font-size: 17px;
+    color: #545353;
+}
+
+.session-order-product .price-product-order>div:nth-child(2) span {
+    color: #e87800;
+    font-weight: 600;
+    font-size: 20px;
+}
+

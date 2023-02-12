@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .session-order-product .container-rusult-order .item-order>.info-product .name-product .name {
+        font-size: 14px !important;
+        
+    }
+    .session-order-product .container-rusult-order .item-order .name-product>.type-total>div:nth-child(1) {
+        font-size: 12px !important;
+    }
+
+    .session-order-product .container-rusult-order .item-order .name-product>.price span {
+        font-size: 16px !important;
+    }
+
+    .session-order-product .price-product-order>div:nth-child(2) span {
+        font-size: 17px !important;
+    }
+
+    .session-order-product .price-product-order>div:nth-child(2) {
+        font-size: 15px !important;
+    }
+}
