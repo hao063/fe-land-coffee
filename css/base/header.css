@@ -89,6 +89,7 @@
     font-size: 14px;
     font-weight: 600;
     color: #fff;
+    cursor: pointer;
 }
 
 .container-header>.header-menu li::before {
@@ -135,3 +136,84 @@
 .footer-menu-mobile {
     display: none;
 }
+.container-header>.header-aciton>.login {
+    position: relative;
+    cursor: pointer;
+}
+
+header .header-aciton .tab-action-account {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    bottom: -189px;
+    left: -144px;
+    width: 190px;
+    height: 190px;
+    display: none;
+}
+
+header .header-aciton .tab-action-account.active {
+    display: block;
+}
+
+header .header-aciton .tab-action-account .close {
+    display: flex;
+    justify-content: end;
+    margin-right: 14px;
+    margin-top: 10px;
+}
+
+header .header-aciton .tab-action-account .close>.svg-inline--fa {
+    font-size: 20px;
+    color: #666464;
+    cursor: pointer;    
+}
+
+header .header-aciton .tab-action-account ul {
+    padding: 0px 10px;
+}
+
+header .header-aciton .tab-action-account ul li {
+    padding: 15px 10px;
+    font-weight: 400;
+    color: #393737;
+    border-bottom: 1px solid rgb(223, 221, 221);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+header .header-aciton .tab-action-account ul li:hover {
+    color: #fb8d17;
+}
+
+header .header-aciton .tab-action-account ul li .svg-inline--fa {
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+header .header-aciton .tab-action-account ul li:last-child {
+    border: none;
+}
+
+.container-header>.header-aciton>.cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.container-header>.header-aciton>.cart .total {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
