@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-
-
     $('#modal-address input').keyup(function () {
         if ($(this).val().length > 0) {
             $('#modal-address img').addClass('active');
@@ -23,11 +21,32 @@ $(document).ready(function () {
 
     $('.btn-search-product').click(function () {
         $('#modal-backdrop').attr('class', 'show');
-        modalClick('#model-search-product');
+        modalClick('#modal-search-product');
+    });
+
+    $('.session-product-home .item').click(function () {
+        $('#modal-backdrop').attr('class', 'show');
+        modalClick('#modal-addproduct-to-cart');
+    });
+
+    $('header .btn-login-number-phone').click(function () {
+        showBackdrop();
+        modalClick('#modal-login');
     });
 
 
-    modalFunc(['#model-search-product', '#modal-address']);
+    function showBackdrop() {
+        $('#modal-backdrop').attr('class', 'show');
+        $('html, body').addClass('fix-csroll');
+    }
+
+    function hideBackdrop() {
+        $('#modal-backdrop').attr('class', 'hiden');
+        $('html, body').attr('class', '');
+    }
+
+
+    modalFunc(['#modal-search-product', '#modal-address', '#modal-addproduct-to-cart', '#modal-login']);
 
 
     function modalClick(id) {
@@ -54,7 +73,7 @@ $(document).ready(function () {
                         statusModalActive.removeClass('show');
                         statusModalActive.addClass('fade');
                         setTimeout(() => {
-                            $('#modal-backdrop').attr('class', 'hiden');
+                            hideBackdrop();
                             statusModalActive.removeClass('fade');
                             statusModalActive.addClass('hiden');
                         }, 500);
@@ -67,20 +86,27 @@ $(document).ready(function () {
     }
 
 
-    $('#model-search-product .close').click(function () { 
+    $('#modal-search-product .close').click(function () { 
         $('#modal-backdrop').attr('class', 'fade');
-        $('#model-search-product').removeClass('show');
-        $('#model-search-product').addClass('fade');
+        $('#modal-search-product').removeClass('show');
+        $('#modal-search-product').addClass('fade');
         setTimeout(() => {
             $('#modal-backdrop').attr('class', 'hiden');
-            $('#model-search-product').removeClass('fade');
-            $('#model-search-product').addClass('hiden');
+            $('#modal-search-product').removeClass('fade');
+            $('#modal-search-product').addClass('hiden');
         }, 500);
     })
 
 
-
-
-
+    $('#modal-addproduct-to-cart .close').click(function () { 
+        $('#modal-backdrop').attr('class', 'fade');
+        $('#modal-addproduct-to-cart').removeClass('show');
+        $('#modal-addproduct-to-cart').addClass('fade');
+        setTimeout(() => {
+            $('#modal-backdrop').attr('class', 'hiden');
+            $('#modal-addproduct-to-cart').removeClass('fade');
+            $('#modal-addproduct-to-cart').addClass('hiden');
+        }, 500);
+    })
 
 });

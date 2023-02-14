@@ -18,6 +18,10 @@ li {
     list-style: none;
 }
 
+.fix-csroll {
+    overflow: hidden;
+}
+
 :root {
     --width-item-category: 86px;
     --height-item-category: 86px;

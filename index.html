@@ -15,6 +15,8 @@
     <!-- modal -->
     <link rel="stylesheet" href="./css/modal/address.css">
     <link rel="stylesheet" href="./css/modal/add-product.css">
+    <link rel="stylesheet" href="./css/modal/login.css">
+    <link rel="stylesheet" href="./css/modal/confirm.css">
 
     <!-- icon -->
     <link rel="stylesheet" href="fontawesome6/css/all.min.css">
@@ -68,6 +70,17 @@
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-right-to-bracket"></i> <span>Đăng xuất</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-action-login">
+                            <div class="close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                            <ul>
+                                <li class="btn-login-number-phone">
+                                    <i class="fa-solid fa-right-to-bracket"></i> <span>Đăng nhập</span>
                                 </li>
                             </ul>
                         </div>
@@ -534,8 +547,80 @@
         <div class="snow"></div>
     </div>
 
+
+    <!-- modal confirm -->
+    <div id="modal-confirm">
+        <div class="container-modal">
+            <div class="avatar">
+                <img src="./images/login.png" alt="">
+            </div>
+            <div class="info-title">
+                <div class="title">
+                    Xác thực mã OTP
+                </div>
+                <div class="content">
+                    <p>Một mã xác thực gồm 6 số đã được gửi đến số điện thoại <br> <span>0981965431</span></p>
+                </div>
+                <div class="label">
+                    Nhập mã để tiếp tục
+                </div>
+            </div>
+            <div class="group-form">
+                <div class="group-input">
+                        <input type="tel" min="0" max="9" maxlength="1" pattern="[0-9]">
+                        <input type="tel" min="0" max="9" maxlength="1" pattern="[0-9]">
+                        <input type="tel" min="0" max="9" maxlength="1" pattern="[0-9]">
+                        <input type="tel" min="0" max="9" maxlength="1" pattern="[0-9]">
+                        <input type="tel" min="0" max="9" maxlength="1" pattern="[0-9]">
+                        <input type="tel" min="0" max="9" maxlength="1" pattern="[0-9]">
+
+                </div>
+                <div class="send-back-code">
+                    <p>Bạn không nhận được mã?
+                        <span>Gửi lại (178s)</span>
+                        <!-- <button>Gửi lại</button> -->
+                    </p>
+                </div>
+                <div class="submit-login">
+                    <button>Đăng nhập</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal login -->
+    <div id="modal-login" class="modal hiden">
+        <div class="container-modal">
+            <div class="avatar">
+                <img src="./images/login.png" alt="">
+            </div>
+            <div class="info-title">
+                <div class="title">
+                    Chào mừng bạn đến với
+                </div>
+                <div class="name-shop">
+                    <h3>
+                        LAND COFFEE
+                    </h3>
+                </div>
+            </div>
+            <div class="group-form">
+                <div class="group-input">
+                    <div>
+                        <img src="./images/vietnam.png" alt="">
+                        <span>+84</span>
+                    </div>
+                    <input type="text" placeholder="Nhập số điện thoại">
+                </div>
+                <div class="input-submit click-btn-submit-login">
+                    <button>Đăng nhập</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!-- modal add product to cart -->
-    <div id="modal-addproduct-to-cart" class="modal">
+    <div id="modal-addproduct-to-cart" class="modal hiden">
         <div class="container-modal">
             <div class="title-modal">
                 <div class="close">
@@ -574,8 +659,8 @@
             <div class="action-note">
                 <div>
                     <i class="fa-solid fa-clipboard"></i>
-                </div>    
-                <input type="text" placeholder="Ghi chú thêm cho món này">      
+                </div>
+                <input type="text" placeholder="Ghi chú thêm cho món này">
             </div>
             <div class="action-choose-option">
                 <div class="choose-size">
@@ -586,7 +671,9 @@
                         <ul>
                             <li>
                                 <input type="radio" name="radio-choose-size" id="radio-choose-size-1">
-                                <label for="radio-choose-size-1" class="check flex-center"><div></div></label>
+                                <label for="radio-choose-size-1" class="check flex-center">
+                                    <div></div>
+                                </label>
                                 <label for="radio-choose-size-1">
                                     <p>Lớn</p>
                                     <span>+10.000đ</span>
@@ -594,7 +681,9 @@
                             </li>
                             <li>
                                 <input type="radio" name="radio-choose-size" id="radio-choose-size-2">
-                                <label for="radio-choose-size-2" class="check flex-center"><div></div></label>
+                                <label for="radio-choose-size-2" class="check flex-center">
+                                    <div></div>
+                                </label>
                                 <label for="radio-choose-size-2">
                                     <p>Vừa</p>
                                     <span>+4.000đ</span>
@@ -602,7 +691,9 @@
                             </li>
                             <li>
                                 <input checked type="radio" name="radio-choose-size" id="radio-choose-size-3">
-                                <label for="radio-choose-size-3" class="check flex-center"><div></div></label>
+                                <label for="radio-choose-size-3" class="check flex-center">
+                                    <div></div>
+                                </label>
                                 <label for="radio-choose-size-3">
                                     <p>Nhỏ</p>
                                     <span>+0đ</span>
@@ -610,7 +701,9 @@
                             </li>
                             <li>
                                 <input checked type="radio" name="radio-choose-size" id="radio-choose-size-4">
-                                <label for="radio-choose-size-4" class="check flex-center"><div></div></label>
+                                <label for="radio-choose-size-4" class="check flex-center">
+                                    <div></div>
+                                </label>
                                 <label for="radio-choose-size-4">
                                     <p>Siêu nhỏ</p>
                                     <span>+0đ</span>
@@ -784,7 +877,7 @@
     <script src="./js/slider.js"></script>
     <script src="./js/footer.js"></script>
     <script src="./js/click.js"></script>
-    <script src="./js/modal/addressModal.js"></script>
+    <script src="./js/modal/modal.js"></script>
 
 </body>
 

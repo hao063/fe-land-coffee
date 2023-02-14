@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .session-product-home .filter-categories li .item-category img {
@@ -87,6 +88,7 @@
     border-radius: 7px;
     padding-top: 10px;
     margin: 10px 23px 0px 0px;
+    cursor: pointer;
 }
 
 .session-product-home .result-products .item>.img-product {
