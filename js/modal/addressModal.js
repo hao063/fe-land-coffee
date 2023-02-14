@@ -17,12 +17,12 @@ $(document).ready(function () {
 
 
     $('.header-address').click(function () {
-        $('#model-backdrop').attr('class', 'show');
+        $('#modal-backdrop').attr('class', 'show');
         modalClick('#modal-address');
     });
 
     $('.btn-search-product').click(function () {
-        $('#model-backdrop').attr('class', 'show');
+        $('#modal-backdrop').attr('class', 'show');
         modalClick('#model-search-product');
     });
 
@@ -50,11 +50,11 @@ $(document).ready(function () {
                 idArray.forEach(element => {
                     let statusModalActive = $(element);
                     if (statusModalActive.hasClass('show')) {
-                        $('#model-backdrop').attr('class', 'fade');
+                        $('#modal-backdrop').attr('class', 'fade');
                         statusModalActive.removeClass('show');
                         statusModalActive.addClass('fade');
                         setTimeout(() => {
-                            $('#model-backdrop').attr('class', 'hiden');
+                            $('#modal-backdrop').attr('class', 'hiden');
                             statusModalActive.removeClass('fade');
                             statusModalActive.addClass('hiden');
                         }, 500);
@@ -68,11 +68,11 @@ $(document).ready(function () {
 
 
     $('#model-search-product .close').click(function () { 
-        $('#model-backdrop').attr('class', 'fade');
+        $('#modal-backdrop').attr('class', 'fade');
         $('#model-search-product').removeClass('show');
         $('#model-search-product').addClass('fade');
         setTimeout(() => {
-            $('#model-backdrop').attr('class', 'hiden');
+            $('#modal-backdrop').attr('class', 'hiden');
             $('#model-search-product').removeClass('fade');
             $('#model-search-product').addClass('hiden');
         }, 500);

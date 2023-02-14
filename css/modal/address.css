@@ -1,4 +1,4 @@
-#model-backdrop {
+#modal-backdrop {
     position: fixed;
     top: 0;
     right: 0;
@@ -10,7 +10,7 @@
     z-index: 1000;
 }
 
-@keyframes model-backdrop-show {
+@keyframes modal-backdrop-show {
     0% {
         opacity: 0;
     }
@@ -20,7 +20,7 @@
     }
 }
 
-@keyframes model-backdrop-fade {
+@keyframes modal-backdrop-fade {
     0% {
         opacity: 1;
     }
@@ -30,17 +30,17 @@
     }
 }
 
-#model-backdrop.show {
+#modal-backdrop.show {
     display: block;
-    animation: model-backdrop-show 0.6s ease;
+    animation: modal-backdrop-show 0.6s ease;
 }
 
-#model-backdrop.fade {
-    animation: model-backdrop-fade 0.6s ease;
+#modal-backdrop.fade {
+    animation: modal-backdrop-fade 0.6s ease;
     /* display: none;  */
 }
 
-#model-backdrop.hiden {
+#modal-backdrop.hiden {
     display: none;
 }
 

@@ -14,6 +14,7 @@
 
     <!-- modal -->
     <link rel="stylesheet" href="./css/modal/address.css">
+    <link rel="stylesheet" href="./css/modal/add-product.css">
 
     <!-- icon -->
     <link rel="stylesheet" href="fontawesome6/css/all.min.css">
@@ -54,7 +55,7 @@
                 <div class="header-aciton">
                     <div class="login">
                         <img src="./images/user.png" alt="">
-                        <div class="tab-action-account"> 
+                        <div class="tab-action-account">
                             <div class="close">
                                 <i class="fa-solid fa-xmark"></i>
                             </div>
@@ -71,11 +72,11 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="cart">
                         <img src="./images/cart.png" alt="">
                         <div class="total">
-                           10
+                            10
                         </div>
                     </div>
                 </div>
@@ -533,8 +534,196 @@
         <div class="snow"></div>
     </div>
 
+    <!-- modal add product to cart -->
+    <div id="modal-addproduct-to-cart" class="modal">
+        <div class="container-modal">
+            <div class="title-modal">
+                <div class="close">
+                    <img src="./images/main/product/download.svg" alt="">
+                </div>
+                <div class="title">
+                    Thêm món mới
+                </div>
+                <div></div>
+            </div>
+            <div class="info-product">
+                <div class="avatar">
+                    <img src="./images/main/product/1639377904_bac-siu_400x400.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h4>CloudTea Thơm Dừa Đá Xay</h4>
+                    <p>Trà sữa CloudTea Thơm Dừa Đá Xay - phiên bản dành riêng cho fan trà sữa dịp Tết này,
+                        với lớp foam dừa được rắc thêm ánh vàng lấp lánh. Sự kết hợp mới mẻ giữa đá xay dừa beo béo cùng
+                        trà lài thơm chua ngọt và mứt thơm xay nhuyễn siêu ghiền.</p>
+                    <div class="action-price">
+                        <div class="price">
+                            72.000đ
+                        </div>
+                        <div class="action">
+                            <button class="minus">
+                                <i class="fa-solid fa-minus"></i>
+                            </button>
+                            <input type="number" value="1">
+                            <button class="plus">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="action-note">
+                <div>
+                    <i class="fa-solid fa-clipboard"></i>
+                </div>    
+                <input type="text" placeholder="Ghi chú thêm cho món này">      
+            </div>
+            <div class="action-choose-option">
+                <div class="choose-size">
+                    <div class="title">
+                        CHỌN SIZE (BẮT BUỘC)
+                    </div>
+                    <div class="select">
+                        <ul>
+                            <li>
+                                <input type="radio" name="radio-choose-size" id="radio-choose-size-1">
+                                <label for="radio-choose-size-1" class="check flex-center"><div></div></label>
+                                <label for="radio-choose-size-1">
+                                    <p>Lớn</p>
+                                    <span>+10.000đ</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" name="radio-choose-size" id="radio-choose-size-2">
+                                <label for="radio-choose-size-2" class="check flex-center"><div></div></label>
+                                <label for="radio-choose-size-2">
+                                    <p>Vừa</p>
+                                    <span>+4.000đ</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input checked type="radio" name="radio-choose-size" id="radio-choose-size-3">
+                                <label for="radio-choose-size-3" class="check flex-center"><div></div></label>
+                                <label for="radio-choose-size-3">
+                                    <p>Nhỏ</p>
+                                    <span>+0đ</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input checked type="radio" name="radio-choose-size" id="radio-choose-size-4">
+                                <label for="radio-choose-size-4" class="check flex-center"><div></div></label>
+                                <label for="radio-choose-size-4">
+                                    <p>Siêu nhỏ</p>
+                                    <span>+0đ</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="choose-topping">
+                    <div class="title">
+                        CHỌN TOPPING (TÙY CHỌN)
+                    </div>
+                    <div class="select">
+                        <div class="item">
+                            <div>
+                                <p>Kem Phô Mai Macchiato</p>
+                                <span>+ 10.000đ</span>
+                            </div>
+                            <div class="flex-center">
+                                <button>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                                <p>0</p>
+                                <button>
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <p>Kem Phô Mai Macchiato</p>
+                                <span>+ 10.000đ</span>
+                            </div>
+                            <div class="flex-center">
+                                <button>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                                <p>0</p>
+                                <button>
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <p>Kem Phô Mai Macchiato</p>
+                                <span>+ 10.000đ</span>
+                            </div>
+                            <div class="flex-center">
+                                <button>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                                <p>0</p>
+                                <button>
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <p>Kem Phô Mai Macchiato</p>
+                                <span>+ 10.000đ</span>
+                            </div>
+                            <div class="flex-center">
+                                <button>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                                <p>330</p>
+                                <button>
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <p>Kem Phô Mai Macchiato</p>
+                                <span>+ 10.000đ</span>
+                            </div>
+                            <div class="flex-center">
+                                <button>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                                <p>20</p>
+                                <button>
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                <p>Kem Phô Mai Macchiato</p>
+                                <span>+ 10.000đ</span>
+                            </div>
+                            <div class="flex-center">
+                                <button>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                                <p>10</p>
+                                <button>
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="submit">
+                <button>72.000đ - Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+    </div>
     <!-- modal backdrop -->
-    <div id="model-backdrop" class="hiden"></div>
+    <div id="modal-backdrop" class="hiden"></div>
     <!-- modal address -->
     <div id="modal-address" class="modal hiden">
         <div class="container-modal">
