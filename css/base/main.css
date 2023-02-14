@@ -23,6 +23,7 @@
 .session-product-home .title h2, .session-new .title h2 {
     font-weight: 500;
     color: #000;
+    white-space: nowrap;
 }
 
 .session-product-home .filter-categories {

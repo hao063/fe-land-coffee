@@ -1,0 +1,122 @@
+#modal-date-receive {
+    background: #fff;
+    z-index: 1100;
+    position: fixed;
+    left: 50%;
+    margin-left: -190px;
+    top: 20%;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 380px;
+}
+
+@media (max-width: 768px) {
+    #modal-date-receive {
+        margin-left: 0px !important;
+        left: 5% !important;
+        width: 90% !important;
+    }
+
+    #modal-date-receive .container-modal .title-modal>div:nth-child(2) {
+        font-size: 13px !important;
+    }
+}
+#modal-date-receive .container-modal .title-modal {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgb(173, 172, 172);
+}
+
+#modal-date-receive .container-modal .title-modal>div:nth-child(1) {
+    width: 20%;
+    margin-left: 15px;
+}
+
+#modal-date-receive .container-modal .title-modal>div:nth-child(1) img {
+    cursor: pointer;
+}
+
+#modal-date-receive .container-modal .title-modal>div:nth-child(2) {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+}
+#modal-date-receive .container-modal .title-modal>div:nth-child(3) {
+    width: 20%;
+}
+
+#modal-date-receive .group-input {
+    margin-top: 15px;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+#modal-date-receive .group-input select {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#modal-date-receive .group-input select:focus {
+    border: 1px solid rgb(89, 190, 244);
+}
+
+#modal-date-receive .submit {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+#modal-date-receive .submit button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background: #fb8d17;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 1px 0px gray;
+    color: #fff;
+}
+
+
+#modal-date-receive.show {
+    display: block;
+    animation: modal-add-product-show 0.5s ease;
+}
+
+#modal-date-receive.fade {
+    animation: modal-add-product-fade 0.5s ease;
+}
+
+#modal-date-receive.hiden {
+    display: none;
+}
+
+@keyframes modal-add-product-show {
+    0% {
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes modal-add-product-fade {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}

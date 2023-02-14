@@ -15,6 +15,7 @@
 
     <!-- modal -->
     <link rel="stylesheet" href="./css/modal/address.css">
+    <link rel="stylesheet" href="./css/modal/date-receive.css">
 
     <!-- icon -->
     <link rel="stylesheet" href="fontawesome6/css/all.min.css">
@@ -95,7 +96,7 @@
                                             <span>Nhận hàng trong ngày 15-30 phút</span>
                                             <p>Vào lúc: Càng sớm càng tốt</p>
                                         </div>
-                                        <div>
+                                        <div class="btn-click-change-date">
                                             <i class="fa-solid fa-angle-right"></i>
                                         </div>
                                     </div>
@@ -472,6 +473,43 @@
         </div>
         <div class="snow"></div>
     </div>
+
+
+    <!-- modal date receive-->
+    <div id="modal-date-receive" class="modal hiden">
+        <div class="container-modal">
+            <div class="title-modal">
+                <div class="close">
+                    <img src="./images/main/product/download.svg" alt="">
+                </div>
+                <div class="title">
+                    Thời gian nhận hàng
+                </div>
+                <div></div>
+            </div>
+            <div class="group-input">
+                <select name="date" id="">
+                    <option value="" selected>Hôm nay</option>
+                    <option value="">Ngày mai</option>
+                    <option value="">16/02</option>
+                </select>
+            </div>
+
+            <div class="group-input">
+                <select name="date" id="">
+                    <option value="" selected>Càng sớm càng tốt</option>
+                    <option value="">16:30</option>
+                    <option value="">16:45</option>
+                    <option value="">17:00</option>
+                </select>
+            </div>
+
+            <div class="submit">
+                <button>Xác nhận</button>
+            </div>
+        </div>
+    </div>
+
 
     <!-- modal backdrop -->
     <div id="modal-backdrop" class="hiden"></div>

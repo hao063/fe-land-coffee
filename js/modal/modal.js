@@ -34,6 +34,20 @@ $(document).ready(function () {
         modalClick('#modal-login');
     });
 
+    $('.checkout-product .btn-click-change-date').click(function () {
+        showBackdrop();
+        modalClick('#modal-date-receive');
+    });
+
+    $('.checkout-product .btn-click-change-date').click(function () {
+        showBackdrop();
+        modalClick('#modal-date-receive');
+    });
+
+    $('header .btn-click-promotion').click(function () {
+        showBackdrop();
+        modalClick('#modal-promotion');
+    });
 
     function showBackdrop() {
         $('#modal-backdrop').attr('class', 'show');
@@ -46,7 +60,14 @@ $(document).ready(function () {
     }
 
 
-    modalFunc(['#modal-search-product', '#modal-address', '#modal-addproduct-to-cart', '#modal-login']);
+    modalFunc([
+        '#modal-search-product',
+        '#modal-address',
+        '#modal-addproduct-to-cart',
+        '#modal-login',
+        '#modal-date-receive',
+        '#modal-promotion'
+    ]);
 
 
     function modalClick(id) {
@@ -106,6 +127,28 @@ $(document).ready(function () {
             $('#modal-backdrop').attr('class', 'hiden');
             $('#modal-addproduct-to-cart').removeClass('fade');
             $('#modal-addproduct-to-cart').addClass('hiden');
+        }, 500);
+    })
+
+    $('#modal-date-receive .close').click(function () { 
+        $('#modal-backdrop').attr('class', 'fade');
+        $('#modal-date-receive').removeClass('show');
+        $('#modal-date-receive').addClass('fade');
+        setTimeout(() => {
+            $('#modal-backdrop').attr('class', 'hiden');
+            $('#modal-date-receive').removeClass('fade');
+            $('#modal-date-receive').addClass('hiden');
+        }, 500);
+    })
+
+    $('#modal-promotion .close').click(function () { 
+        $('#modal-backdrop').attr('class', 'fade');
+        $('#modal-promotion').removeClass('show');
+        $('#modal-promotion').addClass('fade');
+        setTimeout(() => {
+            $('#modal-backdrop').attr('class', 'hiden');
+            $('#modal-promotion').removeClass('fade');
+            $('#modal-promotion').addClass('hiden');
         }, 500);
     })
 
