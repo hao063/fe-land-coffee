@@ -1,47 +1,8 @@
-#modal-backdrop {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
-}
 
-@keyframes modal-backdrop-show {
-    0% {
-        opacity: 0;
-    }
 
-    100% {
-        opacity: 1;
-    }
-}
 
-@keyframes modal-backdrop-fade {
-    0% {
-        opacity: 1;
-    }
 
-    100% {
-        opacity: 0.5;
-    }
-}
 
-#modal-backdrop.show {
-    display: block;
-    animation: modal-backdrop-show 0.6s ease;
-}
-
-#modal-backdrop.fade {
-    animation: modal-backdrop-fade 0.6s ease;
-}
-
-#modal-backdrop.hiden {
-    display: none;
-}
 
 #modal-address {
     width: 700px;

@@ -125,4 +125,8 @@
         width: 200px !important;
         height: 240px !important;
     }
+
+    .session-description-detail>.result {
+        font-size: 13px !important;
+    }
 }

@@ -75,4 +75,12 @@
     .section-evaluate-product {
         width: 98%;
     }
+
+    .session-description-detail {
+        width: 98% !important;
+        margin: 1% !important;
+    }
+    .session-description-detail>.result {
+        font-size: 14px !important;
+    }
 }
