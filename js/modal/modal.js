@@ -108,6 +108,7 @@ $(document).ready(function () {
 
 
     $('#modal-search-product .close').click(function () { 
+        $('html, body').attr('class', '');
         $('#modal-backdrop').attr('class', 'fade');
         $('#modal-search-product').removeClass('show');
         $('#modal-search-product').addClass('fade');
@@ -120,6 +121,7 @@ $(document).ready(function () {
 
 
     $('#modal-addproduct-to-cart .close').click(function () { 
+        $('html, body').attr('class', '');
         $('#modal-backdrop').attr('class', 'fade');
         $('#modal-addproduct-to-cart').removeClass('show');
         $('#modal-addproduct-to-cart').addClass('fade');
@@ -131,6 +133,7 @@ $(document).ready(function () {
     })
 
     $('#modal-date-receive .close').click(function () { 
+        $('html, body').attr('class', '');
         $('#modal-backdrop').attr('class', 'fade');
         $('#modal-date-receive').removeClass('show');
         $('#modal-date-receive').addClass('fade');
@@ -142,6 +145,7 @@ $(document).ready(function () {
     })
 
     $('#modal-promotion .close').click(function () { 
+        $('html, body').attr('class', '');
         $('#modal-backdrop').attr('class', 'fade');
         $('#modal-promotion').removeClass('show');
         $('#modal-promotion').addClass('fade');
